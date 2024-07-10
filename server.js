@@ -2,6 +2,10 @@ const express = require("express");
 const app = express();
 // Require files
 const apiRoutes = require("./app/routes/api.js");
+/**
+ * use bodyParser for body parameters & 
+ * use express,urlencoded() for body parameters
+ */
 const bodyParser = require('body-parser');
 
 // dot import
